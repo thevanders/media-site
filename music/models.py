@@ -33,7 +33,7 @@ def create_album():
         a = Album(artist=artist_name, album_title=album_list[album],genre=genre_name)
         a.save()
 
- def create_songs():
+def create_songs():
     album_input = input("Enter album name: ")
     song_names = input("Enter all song names deliminated by :")
     file_type = input("Enter the file type: ")
